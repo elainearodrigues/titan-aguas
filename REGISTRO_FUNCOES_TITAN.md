@@ -1,7 +1,7 @@
 ## Tabela principal
 
 | ID | Nome da função | Capacidade funcional | Domínio | Interface | Local de criação | Local de aplicação | Área funcional | Tipo | Natureza técnica | Regras principais | Aggregate / Projection | Use case | Endpoint/API | Dependências | Status | Prioridade | Responsável | Criticidade | Observações |
-|----|----------------|----------------------|-----------|------------------|--------------------|----------|------|------------------|-------------------|-------------------------|-----------|--------------|--------------|--------|-------------|-------------|-------------|-------------|
+|----|----------------|----------------------|---------|-----------|------------------|--------------------|----------------|------|------------------|-------------------|-------------------------|-----------|--------------|--------------|--------|------------|-------------|-------------|-------------|
 | FUNC-0001 | calcular_estado_planta | Determinar estado de implantação e operação da planta | AGU, EFL | ADM, PRT, GOV | 01_01 | aplicacao | estrutura_planta_estado | backend | funcao_canonica | Homologada != operacional; depende de dados válidos | Planta / Projection | CalcularEstadoPlanta | GET /plants/{id}/status | cadastro_planta, dados_operacionais | em_desenvolvimento | alta | Elaine | alta | Função base |
 | FUNC-0002 |  |  |  |  |  |  |  |  |  |  |  |  |  |  | nao_iniciado |  |  |  |  |
 | FUNC-0003 |  |  |  |  |  |  |  |  |  |  |  |  |  |  | nao_iniciado |  |  |  |  |
@@ -13,7 +13,6 @@
 | FUNC-0009 |  |  |  |  |  |  |  |  |  |  |  |  |  |  | nao_iniciado |  |  |  |  |
 | FUNC-0010 |  |  |  |  |  |  |  |  |  |  |  |  |  |  | nao_iniciado |  |  |  |  |
 | FUNC-0011 |  |  |  |  |  |  |  |  |  |  |  |  |  |  | nao_iniciado |  |  |  |  |
----
 
 ## Valores padronizados
 
