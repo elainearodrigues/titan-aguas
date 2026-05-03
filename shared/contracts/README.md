@@ -1,9 +1,3 @@
-
----
-
-## `shared/contracts/README.md`
-
-```markdown
 # Contratos Compartilhados
 
 Este diretório contém contratos de dados, respostas, eventos e integrações compartilhadas do TITAN Águas.
