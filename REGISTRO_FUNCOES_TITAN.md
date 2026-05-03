@@ -1,10 +1,8 @@
-# Registro Mestre de Funções — TITAN Águas
+## Tabela principal
 
-Este arquivo registra as funções, capacidades e artefatos compartilhados do TITAN Águas.
-
-| ID | Nome da função | Capacidade funcional | Interface | Local de criação | Local de aplicação | Domínio | Tipo | Natureza técnica | Regras principais | Aggregate | Use case | Endpoint/API | Dependências | Status | Prioridade | Responsável | Criticidade | Observações |
----
-
+| ID | Nome da função | Capacidade funcional | Interface | Local de criação | Local de aplicação | Domínio | Tipo | Natureza técnica | Regras principais | Aggregate / Projection | Use case | Endpoint/API | Dependências | Status | Prioridade | Responsável | Criticidade | Observações |
+|----|----------------|----------------------|-----------|------------------|--------------------|----------|------|------------------|-------------------|-------------------------|-----------|--------------|--------------|--------|-------------|-------------|-------------|-------------|
+| FUNC-0001 | calcular_estado_planta | Determinar estado de implantação e operação da planta | shared | shared/backend/domains/estrutura_planta_estado/plant_status_calculator.py | admin, prestador, governanca_admin, governanca_prestador | estrutura_planta_estado | backend | funcao_canonica | Homologada != operacional; depende de dados válidos | Planta / Projection | CalcularEstadoPlanta | GET /plants/{id}/status | cadastro_planta, dados_operacionais | em_desenvolvimento | alta | Elaine | alta | Função base |
 ---
 
 ## Valores padronizados
